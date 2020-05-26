@@ -1,0 +1,10 @@
+2020-May-17 12:00:47,835 [main] myFirstTest.LoginPage 
+  INFO  url opened http://www.goibibo.com
+2020-May-17 12:00:47,866 [main] myFirstTest.LoginPage 
+  INFO  Wait for 10 second
+2020-May-17 12:00:50,410 [main] myFirstTest.LoginPage 
+  INFO  Source city entered as Mumbai (BOM)
+2020-May-17 12:00:50,420 [main] myFirstTest.LoginPage 
+  INFO  Wait for 2 seconds
+2020-May-17 12:00:52,074 [main] myFirstTest.LoginPage 
+  INFO  Click on city from displayed list

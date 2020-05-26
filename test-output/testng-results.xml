@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="22" total="23" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27839" started-at="2020-05-17T06:30:25Z" finished-at="2020-05-17T06:30:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27839" started-at="2020-05-17T06:30:25Z" finished-at="2020-05-17T06:30:52Z">
+      <class name="myFirstTest.LoginPage">
+        <test-method status="PASS" signature="initUtil()[pri:0, instance:myFirstTest.LoginPage@4e718207]" name="initUtil" is-config="true" duration-ms="9442" started-at="2020-05-17T06:30:25Z" finished-at="2020-05-17T06:30:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initUtil -->
+        <test-method status="PASS" signature="TC25()[pri:0, instance:myFirstTest.LoginPage@4e718207]" name="TC25" duration-ms="18327" started-at="2020-05-17T06:30:34Z" finished-at="2020-05-17T06:30:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC25 -->
+      </class> <!-- myFirstTest.LoginPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

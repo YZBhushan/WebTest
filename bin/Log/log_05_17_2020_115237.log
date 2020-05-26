@@ -1,0 +1,192 @@
+2020-May-17 11:52:37,781 [Forwarding newSession on session null to remote] org.apache.http.client.protocol.RequestAddCookies 
+  DEBUG CookieSpec selected: default
+2020-May-17 11:52:37,839 [Forwarding newSession on session null to remote] org.apache.http.client.protocol.RequestAuthCache 
+  DEBUG Auth cache not set in the context
+2020-May-17 11:52:37,850 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.PoolingHttpClientConnectionManager 
+  DEBUG Connection request: [route: {}->http://localhost:41459][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-May-17 11:52:37,898 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.PoolingHttpClientConnectionManager 
+  DEBUG Connection leased: [id: 0][route: {}->http://localhost:41459][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-May-17 11:52:37,904 [Forwarding newSession on session null to remote] org.apache.http.impl.execchain.MainClientExec 
+  DEBUG Opening connection {}->http://localhost:41459
+2020-May-17 11:52:37,907 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator 
+  DEBUG Connecting to localhost/127.0.0.1:41459
+2020-May-17 11:52:37,910 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.DefaultHttpClientConnectionOperator 
+  DEBUG Connection established 127.0.0.1:55244<->127.0.0.1:41459
+2020-May-17 11:52:37,912 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.DefaultManagedHttpClientConnection 
+  DEBUG http-outgoing-0: set socket timeout to 10800000
+2020-May-17 11:52:37,914 [Forwarding newSession on session null to remote] org.apache.http.impl.execchain.MainClientExec 
+  DEBUG Executing request POST /session HTTP/1.1
+2020-May-17 11:52:37,914 [Forwarding newSession on session null to remote] org.apache.http.impl.execchain.MainClientExec 
+  DEBUG Target auth state: UNCHALLENGED
+2020-May-17 11:52:37,916 [Forwarding newSession on session null to remote] org.apache.http.impl.execchain.MainClientExec 
+  DEBUG Proxy auth state: UNCHALLENGED
+2020-May-17 11:52:37,922 [Forwarding newSession on session null to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> POST /session HTTP/1.1
+2020-May-17 11:52:37,923 [Forwarding newSession on session null to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-May-17 11:52:37,923 [Forwarding newSession on session null to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> Content-Length: 560
+2020-May-17 11:52:37,923 [Forwarding newSession on session null to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> Host: localhost:41459
+2020-May-17 11:52:37,924 [Forwarding newSession on session null to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> Connection: Keep-Alive
+2020-May-17 11:52:37,924 [Forwarding newSession on session null to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_241)
+2020-May-17 11:52:37,924 [Forwarding newSession on session null to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-May-17 11:52:37,926 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2020-May-17 11:52:37,926 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-May-17 11:52:37,927 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "Content-Length: 560[\r][\n]"
+2020-May-17 11:52:37,927 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "Host: localhost:41459[\r][\n]"
+2020-May-17 11:52:37,927 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-May-17 11:52:37,928 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_241)[\r][\n]"
+2020-May-17 11:52:37,929 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-May-17 11:52:37,929 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "[\r][\n]"
+2020-May-17 11:52:37,930 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "{[\n]"
+2020-May-17 11:52:37,930 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2020-May-17 11:52:37,930 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "    "browserName": "chrome",[\n]"
+2020-May-17 11:52:37,931 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "    "goog:chromeOptions": {[\n]"
+2020-May-17 11:52:37,931 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "      "args": [],[\n]"
+2020-May-17 11:52:37,931 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "      "extensions": [][\n]"
+2020-May-17 11:52:37,932 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "    }[\n]"
+2020-May-17 11:52:37,932 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "  },[\n]"
+2020-May-17 11:52:37,932 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2020-May-17 11:52:37,932 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "  "capabilities": {[\n]"
+2020-May-17 11:52:37,933 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2020-May-17 11:52:37,947 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "      "browserName": "chrome",[\n]"
+2020-May-17 11:52:37,947 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "      "goog:chromeOptions": {[\n]"
+2020-May-17 11:52:37,947 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "        "args": [],[\n]"
+2020-May-17 11:52:37,948 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "        "extensions": [][\n]"
+2020-May-17 11:52:37,948 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "      }[\n]"
+2020-May-17 11:52:37,948 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "    },[\n]"
+2020-May-17 11:52:37,949 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2020-May-17 11:52:37,949 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "    "alwaysMatch": {[\n]"
+2020-May-17 11:52:37,949 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "      "goog:chromeOptions": {[\n]"
+2020-May-17 11:52:37,950 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "        "args": [],[\n]"
+2020-May-17 11:52:37,950 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "        "extensions": [][\n]"
+2020-May-17 11:52:37,950 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "      }[\n]"
+2020-May-17 11:52:37,951 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "    },[\n]"
+2020-May-17 11:52:37,953 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "    "firstMatch": [[\n]"
+2020-May-17 11:52:37,954 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "      {[\n]"
+2020-May-17 11:52:37,957 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "        "browserName": "chrome"[\n]"
+2020-May-17 11:52:37,958 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "      }[\n]"
+2020-May-17 11:52:37,958 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "    ][\n]"
+2020-May-17 11:52:37,965 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "  }[\n]"
+2020-May-17 11:52:37,968 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "}"
+2020-May-17 11:52:42,996 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-May-17 11:52:42,997 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 << "Content-Length:717[\r][\n]"
+2020-May-17 11:52:42,997 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-May-17 11:52:42,998 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 << "cache-control:no-cache[\r][\n]"
+2020-May-17 11:52:42,998 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 << "[\r][\n]"
+2020-May-17 11:52:42,998 [Forwarding newSession on session null to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 << "{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"81.0.4044.138","chrome":{"chromedriverVersion":"81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999})","userDataDir":"C:\\Users\\nikks\\AppData\\Local\\Temp\\scoped_dir7292_613584355"},"goog:chromeOptions":{"debuggerAddress":"localhost:55245"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:virtualAuthenticators":true},"sessionId":"3a4a69d7f4637f4c0e2fd23dedd8bf12"}}"
+2020-May-17 11:52:43,008 [Forwarding newSession on session null to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 << HTTP/1.1 200 OK
+2020-May-17 11:52:43,009 [Forwarding newSession on session null to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 << Content-Length:717
+2020-May-17 11:52:43,009 [Forwarding newSession on session null to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-May-17 11:52:43,009 [Forwarding newSession on session null to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 << cache-control:no-cache
+2020-May-17 11:52:43,023 [Forwarding newSession on session null to remote] org.apache.http.impl.execchain.MainClientExec 
+  DEBUG Connection can be kept alive indefinitely
+2020-May-17 11:52:43,036 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.PoolingHttpClientConnectionManager 
+  DEBUG Connection [id: 0][route: {}->http://localhost:41459] can be kept alive indefinitely
+2020-May-17 11:52:43,037 [Forwarding newSession on session null to remote] org.apache.http.impl.conn.PoolingHttpClientConnectionManager 
+  DEBUG Connection released: [id: 0][route: {}->http://localhost:41459][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-May-17 11:52:43,471 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.client.protocol.RequestAddCookies 
+  DEBUG CookieSpec selected: default
+2020-May-17 11:52:43,471 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.client.protocol.RequestAuthCache 
+  DEBUG Auth cache not set in the context
+2020-May-17 11:52:43,471 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.impl.conn.PoolingHttpClientConnectionManager 
+  DEBUG Connection request: [route: {}->http://localhost:41459][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-May-17 11:52:43,472 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.impl.conn.PoolingHttpClientConnectionManager 
+  DEBUG Connection leased: [id: 0][route: {}->http://localhost:41459][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-May-17 11:52:43,473 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.impl.execchain.MainClientExec 
+  DEBUG Stale connection check
+2020-May-17 11:52:43,474 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-May-17 11:52:43,475 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.impl.conn.DefaultManagedHttpClientConnection 
+  DEBUG http-outgoing-0: set socket timeout to 10800000
+2020-May-17 11:52:43,475 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.impl.execchain.MainClientExec 
+  DEBUG Executing request POST /session/3a4a69d7f4637f4c0e2fd23dedd8bf12/url HTTP/1.1
+2020-May-17 11:52:43,475 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.impl.execchain.MainClientExec 
+  DEBUG Target auth state: UNCHALLENGED
+2020-May-17 11:52:43,475 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.impl.execchain.MainClientExec 
+  DEBUG Proxy auth state: UNCHALLENGED
+2020-May-17 11:52:43,476 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> POST /session/3a4a69d7f4637f4c0e2fd23dedd8bf12/url HTTP/1.1
+2020-May-17 11:52:43,476 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-May-17 11:52:43,476 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> Content-Length: 32
+2020-May-17 11:52:43,476 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> Host: localhost:41459
+2020-May-17 11:52:43,477 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> Connection: Keep-Alive
+2020-May-17 11:52:43,477 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_241)
+2020-May-17 11:52:43,477 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.headers 
+  DEBUG http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-May-17 11:52:43,478 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "POST /session/3a4a69d7f4637f4c0e2fd23dedd8bf12/url HTTP/1.1[\r][\n]"
+2020-May-17 11:52:43,478 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-May-17 11:52:43,478 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "Content-Length: 32[\r][\n]"
+2020-May-17 11:52:43,478 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "Host: localhost:41459[\r][\n]"
+2020-May-17 11:52:43,479 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-May-17 11:52:43,479 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_241)[\r][\n]"
+2020-May-17 11:52:43,480 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-May-17 11:52:43,480 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "[\r][\n]"
+2020-May-17 11:52:43,480 [Forwarding get on session 3a4a69d7f4637f4c0e2fd23dedd8bf12 to remote] org.apache.http.wire 
+  DEBUG http-outgoing-0 >> "{"url":"http://www.goibibo.com"}"
